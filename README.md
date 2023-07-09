@@ -40,6 +40,14 @@ Then, open `http://localhost:3000` in your browser to use the application, and e
 
 To use this application, simply move the pieces on the chess board. The current state of the game will be automatically updated and analyzed. Below the chess board, you will find the analysis of the current game state, along with suggestions for possible strategies and tactics.
 
+
+## Screenshots
+
+![The overall screenshot](chees1.jpeg)
+
+![example of position](chees2.jpeg)
+
+
 ## Contributions
 
 Contributions are welcome! Please ensure your pull request adheres to the following guidelines:
