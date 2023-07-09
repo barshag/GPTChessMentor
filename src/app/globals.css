@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+
+.github-fork-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 149px;
+  height: 149px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.github-fork-ribbon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  width: 200px;
+  height: 200px;
+  background: #70b7fd url(https://github.blog/wp-content/uploads/2008/12/forkme_right_blue_121621.png?resize=149%2C149) no-repeat;
+  background-size: 149px 149px;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.github-fork-ribbon a {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.submit-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+}
+
+.submit-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;  /* You can import this font from Google Fonts */
+  color: #333;  /* Dark grey color for the text */
+  line-height: 1.6;  /* Spacing between lines */
+  font-size: 16px;  /* Size of the regular text */
+  padding: 20px;  /* Some padding around the body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;  /* Headers are bold */
+  color: #1778df; 
+}
+
+h1 {
+  font-size: 2.5em; /* h1 is 2.5 times the size of the regular text */
+}
+
+h2 {
+  font-size: 2em;  /* h2 is 2 times the size of the regular text */
+}
