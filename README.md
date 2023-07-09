@@ -22,7 +22,7 @@ This application is built primarily using the following technology stack:
 
 Clone this repository and then run the following commands:
 
-\```bash
+```bash
 # Go to the project directory
 cd GPTChessMentor
 
@@ -31,7 +31,7 @@ npm install
 
 # Start the server
 npm run dev
-\```
+```
 
 Then, open `http://localhost:3000` in your browser to use the application, and enter OpenAI-key.
 
