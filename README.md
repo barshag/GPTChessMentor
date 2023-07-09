@@ -43,9 +43,9 @@ To use this application, simply move the pieces on the chess board. The current 
 
 ## Screenshots
 
-![The overall screenshot](chees1.jpeg)
+![The overall screenshot](preview.jpeg)
 
-![example of position](chees2.jpeg)
+![example of position](preview2.jpeg)
 
 
 ## Contributions
